@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             x:Class="MedicalChartingMaui.Views.PatientDetailPage"
+             Title="Patient Details">
+    <ScrollView>
+    <VerticalStackLayout Padding="16" Spacing="8">
+        <Entry Placeholder="Name" Text="{Binding Item.Name}" />
+        <Entry Placeholder="Address" Text="{Binding Item.Address}" />
+        <Entry Placeholder="Race" Text="{Binding Item.Race}" />
+        <Entry Placeholder="Gender" Text="{Binding Item.Gender}" />
+        <Entry Placeholder="Birthdate (MM/dd/yyyy)" x:Name="DobEntry" />
+        <Button Text="Save" Command="{Binding SaveCommand}" Clicked="OnSaveClicked"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

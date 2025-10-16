@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    x:Class="MedicalChartingMaui.AppShell"
+    Shell.FlyoutBehavior="Disabled">
+
+    <!-- Bottom tabs or top tabs—either counts as navigation via AppShell -->
+    <TabBar>
+        <Tab Title="Patients">
+            <ShellContent Route="patients" ContentTemplate="{DataTemplate views:PatientsPage}" />
+        </Tab>
+        <Tab Title="Physicians">
+            <ShellContent Route="physicians" ContentTemplate="{DataTemplate views:PhysiciansPage}" />
+        </Tab>
+        <Tab Title="Appointments">
+            <ShellContent Route="appointments" ContentTemplate="{DataTemplate views:AppointmentsPage}" />
+        </Tab>
+    </TabBar>
+
+    <!-- Register a detail route to navigate to from Patients list -->
+    <ShellContent Route="patientdetail" ContentTemplate="{DataTemplate views:PatientDetailPage}" />
+</Shell>
