@@ -1,0 +1,56 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.19041.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MedicalCharting
+build_property.ProjectDir = C:\Users\ammjo\OneDrive\Desktop\COP-4870\MedicalCharting\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+
+[C:/Users/ammjo/OneDrive/Desktop/COP-4870/MedicalCharting/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalCharting.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/ammjo/OneDrive/Desktop/COP-4870/MedicalCharting/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalCharting.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/ammjo/OneDrive/Desktop/COP-4870/MedicalCharting/Views/AppointmentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalCharting.Views.AppointmentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AppointmentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AppointmentsPage.xaml
+
+[C:/Users/ammjo/OneDrive/Desktop/COP-4870/MedicalCharting/Views/PatientDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalCharting.Views.PatientDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PatientDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PatientDetailPage.xaml
+
+[C:/Users/ammjo/OneDrive/Desktop/COP-4870/MedicalCharting/Views/PatientsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalCharting.Views.PatientsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PatientsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PatientsPage.xaml
+
+[C:/Users/ammjo/OneDrive/Desktop/COP-4870/MedicalCharting/Views/PhysiciansPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalCharting.Views.PhysiciansPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PhysiciansPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PhysiciansPage.xaml
