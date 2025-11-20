@@ -1,4 +1,6 @@
-﻿namespace MedicalChartingApp;
+﻿using MedicalChartingApp.Services;
+
+namespace MedicalChartingApp;
 
 public static class MauiProgram
 {
@@ -13,6 +15,11 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
+
+        // Register your in-memory services
+        builder.Services.AddSingleton<IPatientService, InMemoryPatientService>();
+        builder.Services.AddSingleton<IPhysicianService, InMemoryPhysicianService>();
+        builder.Services.AddSingleton<IAppointmentService, InMemoryAppointmentService>();
 
         return builder.Build();
     }

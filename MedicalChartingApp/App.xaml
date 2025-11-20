@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <Application.Resources>
-        <!-- styles/resources -->
+        <!-- Add global styles/resources later -->
     </Application.Resources>
 
 </Application>
