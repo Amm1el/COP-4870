@@ -28,10 +28,11 @@ public class PatientDetailViewModel : BaseViewModel
         set => Set(ref _newNoteText, value);
     }
 
+    public PatientDetailViewModel() : this(App.PatientService) { }
+
     public PatientDetailViewModel(IPatientService svc)
     {
         _svc = svc;
-
         SaveCommand = new Command(async () => await SaveAsync());
         AddNoteCommand = new Command(AddNote);
     }
@@ -58,7 +59,6 @@ public class PatientDetailViewModel : BaseViewModel
         if (Item.Id == Guid.Empty)
             Item.Id = Guid.NewGuid();
 
-        // if already stored, update; else add
         var existing = await _svc.GetAsync(Item.Id);
         if (existing == null)
             await _svc.AddAsync(Item);

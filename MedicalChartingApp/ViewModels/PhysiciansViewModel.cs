@@ -15,6 +15,8 @@ public class PhysiciansViewModel : BaseViewModel
     public ICommand AddCommand { get; }
     public ICommand DeleteCommand { get; }
 
+    public PhysiciansViewModel() : this(App.PhysicianService) { }
+
     public PhysiciansViewModel(IPhysicianService svc)
     {
         _svc = svc;

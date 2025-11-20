@@ -15,6 +15,9 @@ public class PatientsViewModel : BaseViewModel
     public ICommand AddCommand { get; }
     public ICommand DeleteCommand { get; }
 
+    // Parameterless ctor uses App.PatientService
+    public PatientsViewModel() : this(App.PatientService) { }
+
     public PatientsViewModel(IPatientService svc)
     {
         _svc = svc;

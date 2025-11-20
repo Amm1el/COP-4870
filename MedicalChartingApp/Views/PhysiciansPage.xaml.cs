@@ -1,5 +1,4 @@
 using MedicalChartingApp.ViewModels;
-using Microsoft.Maui.Controls;
 
 namespace MedicalChartingApp.Views;
 
@@ -7,10 +6,10 @@ public partial class PhysiciansPage : ContentPage
 {
     public PhysiciansViewModel VM { get; }
 
-    public PhysiciansPage(PhysiciansViewModel vm)
+    public PhysiciansPage()
     {
         InitializeComponent();
-        VM = vm;
+        VM = new PhysiciansViewModel();
         BindingContext = VM;
     }
 

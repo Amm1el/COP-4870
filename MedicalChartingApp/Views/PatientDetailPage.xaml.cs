@@ -1,5 +1,4 @@
 using MedicalChartingApp.ViewModels;
-using Microsoft.Maui.Controls;
 
 namespace MedicalChartingApp.Views;
 
@@ -9,10 +8,10 @@ public partial class PatientDetailPage : ContentPage
     public string? PatientId { get; set; }
     private readonly PatientDetailViewModel _vm;
 
-    public PatientDetailPage(PatientDetailViewModel vm)
+    public PatientDetailPage()
     {
         InitializeComponent();
-        _vm = vm;
+        _vm = new PatientDetailViewModel();
         BindingContext = _vm;
     }
 
@@ -34,6 +33,9 @@ public partial class PatientDetailPage : ContentPage
     {
         if (_vm.Item != null && DateOnly.TryParse(DobEntry.Text, out var dob))
             _vm.Item.Birthdate = dob;
+
+        if (_vm.SaveCommand.CanExecute(null))
+            _vm.SaveCommand.Execute(null);
 
         await Shell.Current.GoToAsync("..");
     }

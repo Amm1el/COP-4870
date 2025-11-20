@@ -21,6 +21,9 @@ public class AppointmentsViewModel : BaseViewModel
     public ICommand AddCommand { get; }
     public ICommand DeleteCommand { get; }
 
+    public AppointmentsViewModel()
+        : this(App.AppointmentService, App.PatientService, App.PhysicianService) { }
+
     public AppointmentsViewModel(IAppointmentService a, IPatientService p, IPhysicianService d)
     {
         _apptSvc = a;

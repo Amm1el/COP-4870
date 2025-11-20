@@ -1,6 +1,5 @@
 using MedicalChartingApp.Models;
 using MedicalChartingApp.ViewModels;
-using Microsoft.Maui.Controls;
 
 namespace MedicalChartingApp.Views;
 
@@ -11,10 +10,10 @@ public partial class AppointmentsPage : ContentPage
     public Patient? SelectedPatient { get; set; }
     public Physician? SelectedPhysician { get; set; }
 
-    public AppointmentsPage(AppointmentsViewModel vm)
+    public AppointmentsPage()
     {
         InitializeComponent();
-        VM = vm;
+        VM = new AppointmentsViewModel();
         BindingContext = VM;
     }
 

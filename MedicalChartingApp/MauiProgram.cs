@@ -14,8 +14,6 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
 
-        // You can wire services here later; keeping it minimal for now.
-
         return builder.Build();
     }
 }
