@@ -2,19 +2,17 @@
 <Application
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="MedicalCharting.App">
+    x:Class="MedicalChartingApp.App">
 
-    <!-- Optional: global app-level resources -->
-    <Application.Resources>
-        <ResourceDictionary>
-            <Color x:Key="PrimaryColor">#782F40</Color>
-            <Style TargetType="Button">
-                <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}" />
-                <Setter Property="TextColor" Value="White" />
-                <Setter Property="CornerRadius" Value="8" />
-                <Setter Property="Padding" Value="8,4" />
-            </Style>
-        </ResourceDictionary>
-    </Application.Resources>
+  <!-- Global resources (you can add styles here later) -->
+  <Application.Resources>
+    <ResourceDictionary>
+      <Color x:Key="PrimaryColor">#006699</Color>
+      <Style TargetType="Button">
+        <Setter Property="CornerRadius" Value="6" />
+        <Setter Property="Padding" Value="8,4" />
+      </Style>
+    </ResourceDictionary>
+  </Application.Resources>
 
 </Application>

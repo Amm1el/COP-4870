@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "M4uZ0H8puo8=",
+  "dgSpecHash": "ha09gFK4YB4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalCharting\\MedicalCharting.csproj",
+  "projectFilePath": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalChartingApp\\MedicalChartingApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ammjo\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\ammjo\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\ammjo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\ammjo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",

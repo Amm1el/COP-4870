@@ -1,19 +1,18 @@
-using MedicalChartingMaui.Services;
-using MedicalChartingMaui.ViewModels;
-using MedicalChartingMaui.Views;
+using MedicalChartingApp.Services;
+using MedicalChartingApp.ViewModels;
+using MedicalChartingApp.Views;
 
-namespace MedicalChartingMaui;
+namespace MedicalChartingApp;
 
 public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
         var builder = MauiApp.CreateBuilder();
-        builder
-            .UseMauiApp<App>()
-            .ConfigureFonts(fonts => { fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular"); });
 
-        // Services
+        builder.UseMauiApp<App>();
+
+        // Register services (in-memory, but you can swap to DB later)
         builder.Services.AddSingleton<IPatientService, InMemoryPatientService>();
         builder.Services.AddSingleton<IPhysicianService, InMemoryPhysicianService>();
         builder.Services.AddSingleton<IAppointmentService, InMemoryAppointmentService>();

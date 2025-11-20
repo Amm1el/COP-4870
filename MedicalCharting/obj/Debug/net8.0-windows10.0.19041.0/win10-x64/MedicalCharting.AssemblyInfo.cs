@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MedicalCharting")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MedicalChartingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e7b5c51220820ce31ee02e2426eb5e2d38b900")]
-[assembly: System.Reflection.AssemblyProductAttribute("MedicalCharting")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MedicalCharting")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80afe180da3a2deaf63a680a7c0c13bf5fade9e7")]
+[assembly: System.Reflection.AssemblyProductAttribute("MedicalChartingApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MedicalChartingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows10.0.19041.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows10.0.19041.0")]

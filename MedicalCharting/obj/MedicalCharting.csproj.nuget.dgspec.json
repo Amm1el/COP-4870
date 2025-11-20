@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalCharting\\MedicalCharting.csproj": {}
+    "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalChartingApp\\MedicalChartingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalCharting\\MedicalCharting.csproj": {
+    "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalChartingApp\\MedicalChartingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalCharting\\MedicalCharting.csproj",
-        "projectName": "MedicalCharting",
-        "projectPath": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalCharting\\MedicalCharting.csproj",
+        "projectUniqueName": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalChartingApp\\MedicalChartingApp.csproj",
+        "projectName": "MedicalChartingApp",
+        "projectPath": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalChartingApp\\MedicalChartingApp.csproj",
         "packagesPath": "C:\\Users\\ammjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalCharting\\obj\\",
+        "outputPath": "C:\\Users\\ammjo\\OneDrive\\Desktop\\COP-4870\\MedicalChartingApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -45,10 +45,6 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.2.2, )"
-            },
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[8.0.100, )"

@@ -1,12 +1,12 @@
 using Microsoft.Maui.Controls;
 
-namespace MedicalCharting;
+namespace MedicalChartingApp;
 
 public partial class App : Application
 {
     public App()
     {
         InitializeComponent();
-        MainPage = new AppShell(); // Entry point (defined in AppShell.xaml)
+        MainPage = new AppShell();
     }
 }
