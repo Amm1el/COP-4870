@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicalChartingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+22fcae057774a3a79f15ff9cb279d1c63c44ed55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c4ecd7fc354d38204919a5e4f7c3cbc7bc3c96e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicalChartingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicalChartingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
